@@ -1,0 +1,154 @@
+.block-main-container {
+  width: 980px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 87vh;
+}
+
+.header-general__links1 {
+  color: #61D0D4;
+  padding: 8px 10px;
+}
+.header-general__links1:hover {
+  background: #61D0D4;
+  color: white;
+}
+.header-general__headerBlock {
+  padding: 30px 0px;
+}
+.header-general__headerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-general__rightHeader {
+  text-align: center;
+}
+.header-general__nameUser {
+  font-size: 43px;
+  font-weight: bold;
+}
+.header-general__navMenu {
+  display: flex;
+}
+
+.right-block-content__textHello {
+  font-size: 80px;
+  font-weight: bold;
+}
+.right-block-content__partOfText {
+  font-size: 46px;
+}
+.right-block-content__userPortfolio {
+  display: flex;
+}
+.right-block-content__linksUser1 {
+  color: white;
+  background: #FE3A59;
+  padding: 21px 10px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.right-block-content__linksUser1:hover {
+  color: #F7B1BF;
+  background: #9B2339;
+}
+.right-block-content__linksUser2 {
+  color: white;
+  background: #61D0D4;
+  padding: 21px 10px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.right-block-content__linksUser2:hover {
+  color: #F7B1BF;
+  background: #9B2339;
+}
+.right-block-content__linksUser3 {
+  color: white;
+  background: #ffe73b;
+  padding: 21px 36px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.right-block-content__linksUser3:hover {
+  color: #F7B1BF;
+  background: #9B2339;
+}
+.right-block-content__infoAboutUser {
+  margin-top: 64px;
+}
+.right-block-content__navMenuUser {
+  margin-top: 65px;
+}
+.right-block-content__textForThisBlock {
+  font-size: 14px;
+  line-height: 20px;
+}
+.right-block-content__text {
+  margin-top: 40px;
+}
+
+.block-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-block {
+  background: #E83556;
+}
+.footer-block__call {
+  font-weight: bold;
+}
+.footer-block__contact {
+  font-weight: bold;
+}
+.footer-block__followMe {
+  font-weight: bold;
+}
+.footer-block__one {
+  display: flex;
+  align-items: center;
+}
+.footer-block__two {
+  display: flex;
+  align-items: center;
+}
+.footer-block__three {
+  display: flex;
+  align-items: center;
+}
+.footer-block__socialNetwork {
+  margin-left: 15px;
+}
+.footer-block__fbIcon {
+  padding-top: 12px;
+}
+.footer-block__four {
+  display: flex;
+  justify-content: center;
+}
+.footer-block__numberPhone {
+  margin-left: 15px;
+}
+.footer-block__infoContact {
+  margin-left: 15px;
+}
+.footer-block__infoAboutCompany {
+  margin-left: 15px;
+}
+.footer-block__website {
+  color: white;
+}
+
+.footer-block-content {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

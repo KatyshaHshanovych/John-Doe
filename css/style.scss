@@ -1,0 +1,199 @@
+.block-main-container {
+  width: 980px;
+  margin: 0 auto;
+  font-family: Arial,Helvetica,sans-serif;
+  height: 87vh;
+}
+
+.header-general {
+  &__links1 {
+    color: #61D0D4;
+    padding: 8px 10px;
+
+    &:hover {
+      background: #61D0D4;
+      color: white;
+    }
+
+  }
+
+  &__headerBlock {
+    padding: 30px 0px;
+  }
+
+  &__headerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__rightHeader {
+    text-align: center;
+  }
+
+  &__nameUser {
+    font-size: 43px;
+    font-weight: bold;
+  }
+
+  &__navMenu {
+    display: flex;
+  }
+
+  //&__linksNavMenu {
+  //  padding-left: 25px;
+  //}
+
+  //&__linksNavMenu:first-child {
+  //  padding-left: 0;
+  //}
+}
+
+.right-block-content{
+
+  &__textHello {
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  &__partOfText {
+    font-size: 46px;
+  }
+
+  &__userPortfolio {
+    display: flex;
+  }
+
+  &__linksUser1 {
+    color: white;
+    background: #FE3A59;
+    padding: 21px 10px;
+    border-radius: 3px;
+    margin-right: 20px;
+
+    &:hover {
+      color: #F7B1BF;
+      background: #9B2339;
+    }
+  }
+
+  &__linksUser2 {
+    color: white;
+    background: #61D0D4;
+    padding: 21px 10px;
+    border-radius: 3px;
+    margin-right: 20px;
+
+    &:hover {
+      color: #F7B1BF;
+      background: #9B2339;
+    }
+  }
+
+  &__linksUser3 {
+    color: white;
+    background: #ffe73b;
+    padding: 21px 36px;
+    border-radius: 3px;
+    margin-right: 20px;
+
+    &:hover {
+      color: #F7B1BF;
+      background: #9B2339;
+    }
+  }
+
+  &__infoAboutUser {
+    margin-top: 64px;
+  }
+
+  &__navMenuUser {
+    margin-top: 65px;
+  }
+
+  &__textForThisBlock {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__text {
+    margin-top: 40px;
+  }
+}
+
+.block-content {
+  display: flex;
+  justify-content: space-between;
+  //height: 550px;
+}
+
+.footer-block {
+  background: #E83556;
+
+  &__call {
+    font-weight: bold;
+  }
+
+  &__contact {
+    font-weight: bold;
+  }
+
+  &__followMe {
+    font-weight: bold;
+  }
+
+  &__one {
+    display: flex;
+    align-items: center;
+  }
+
+  &__two {
+    display: flex;
+    align-items: center;
+  }
+
+  &__three {
+    display: flex;
+    align-items: center;
+  }
+
+  &__socialNetwork {
+    margin-left: 15px;
+  }
+
+  &__fbIcon {
+    padding-top: 12px;
+  }
+
+  &__four {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__numberPhone {
+    margin-left: 15px;
+  }
+
+  &__infoContact {
+    margin-left: 15px;
+  }
+
+  &__infoAboutCompany {
+    margin-left: 15px;
+  }
+
+  &__website {
+    color: white;
+  }
+}
+
+.footer-block-content {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 30px;
+}
+
